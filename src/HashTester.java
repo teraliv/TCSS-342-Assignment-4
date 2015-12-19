@@ -22,7 +22,7 @@
  *  HashTable.java
  *  TCSS 342 - Autumn 2015
  *
- *  Assignment 4 - Anagram
+ *  Assignment 4 - Anagram Queries using Hashing
  *  Alex Terikov (teraliv@uw.edu)
  *  12/17/15
  */

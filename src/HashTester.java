@@ -7,7 +7,8 @@
  *  character and follow this sequence till the last character of the word. Then mod the calculated value with hash
  *  table size. it gives pretty much stable hash code. It seem to operate a bit better compare to Java's API O(log2n).
  *  The collision is handled by the Quadratic Probing Method which helps to eliminate primary clustering
- *  and follow the quadratic formula of F(i) = i^2.
+ *  and follow the quadratic formula of F(i) = i^2. The worst case collision I have foun particularly for my code
+ *  is O(8). Number 8 is the highest collision occurred.
  *
  *  Hash function:
  *  int hash = 17
